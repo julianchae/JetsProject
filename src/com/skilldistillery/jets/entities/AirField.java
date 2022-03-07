@@ -131,21 +131,14 @@ public class AirField {
 
 	public void loadCargo() {
 		CargoJet cargoJet = new CargoJet();
-		// for(Jets jet : listOfJets) {
-//			
-//			if(jet instanceof CargoJet ) {
-//				((CargoJet) jet).loadingCargo();
+
 		cargoJet.loadingCargo();
 
 	}
 
 	public void fight() {
 		FighterJet fighterJet = new FighterJet();
-		// for(Jets jet : listOfJets) {
-//			
-//			if(jet instanceof FighterJet) {
-//				((FighterJet) jet).dogFight();
-//			}
+	
 		fighterJet.dogFight();
 	}
 
